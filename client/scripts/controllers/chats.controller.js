@@ -53,4 +53,8 @@ constructor() {
       }
     ];
   }
+  
+  remove(chat) {
+  this.data.splice(this.data.indexOf(chat), 1);
+  }
 }
