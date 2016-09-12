@@ -13,7 +13,7 @@ export default class ChatsCtrl extends Controller {
   }
 
   showNewChatModal() {
-    this.newChat.showModal();
+    this.NewChat.showModal();
   }
 
   remove(chat) {
